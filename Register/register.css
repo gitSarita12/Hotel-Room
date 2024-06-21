@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppinns", sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images/photo-1506059612708-99d6c258160e.avif") no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.Reg-form {
+    width: 50%;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.Reg-form .header{
+    display: flex;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+}
+.Reg-form .header .head{
+    padding: 0 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.Reg-form .name {
+        display: flex;
+        justify-content: space-around;
+       width: 100%;
+    }
+
+.Reg-form .name .first{
+    padding: 0 5px;
+    width: 100%;
+}
+.Reg-form h1 {
+    font-size: 36px;
+    text-align: center;
+    
+}
+.Reg-form .input-box {
+    position: relative;
+    width: 100%;
+    /* height: 37px; */
+    margin: 3px 0px 9px 0px;
+}
+.Reg-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.Reg-form input {
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box i {
+    color: rgba(0, 0, 0, .5);
+    /* background-color: red; */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.Reg-form button {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ddede9;
+}
+.btn{
+    text-align: center;
+}
+.Reg-form button:hover {
+    background-color:rgb(72, 94, 100);
+    color: rgb(227, 225, 235);
+}
+.login-link{
+    text-align: center;
+    font-weight: 100;
+}
+.login-link>p>a {
+    color: #f0eff8;
+    /* text-decoration: none; */
+    font-weight: 600;
+    
+}
+
+.login-link>p>a:hover {
+    text-decoration: underline;
+}
