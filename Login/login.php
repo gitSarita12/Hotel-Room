@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 header("Location: protected_page.php");
                 exit();
             } else {
-                echo "Invalid password.";
+                echo "Wrong password.";
             }
         } else {
             echo "No user found with that email address.";
