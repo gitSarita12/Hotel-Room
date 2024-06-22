@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "poppins", sans-serif;
+
+    min-height: 100vh;
+    background: url(../images/photo-1506059612708-99d6c258160e.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+
+}
+
+h1,h2 {
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+    
+    
+    
+    .flex_space{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        border: none;
+        background: none;
+        outline: none;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .primary-btn{
+        padding: 15px 40px;
+        background: #06b32b;
+        font-weight: bold;
+        color: white;
+    }
+    .secondary-btn{
+        padding: 15px 40px;
+        background:none;
+        border: 2px solid white;
+        font-weight: bold;
+        color: white;
+    }
+    .container{
+        max-width: 85%;
+        margin: auto;
+    }
+    
+    header{
+        height: 10vh;
+        line-height: 10vh;
+        padding: 0 20px;
+    }
+    header img{
+    margin: 20px 0;
+    }
+    
+    header ul li{
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    
+    
+    header i{
+        margin: 0 20px;
+    }
+    header button {
+        padding: 13px 40px;
+    }
+    header.navlink span{
+        display:none;
+    }
+    header h1{
+        color: #fff;
+    }
+    header p{
+        color: azure;
+    }
+    
+    .footer {
+        max-width: 1000px;
+         margin-bottom: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .footer .room {
+    
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(51, 20, 187, 0.1);
+    }
+    
+    .footer .room img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+    
+    .footer.room h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .footer .room p {
+        color: #666;
+        margin-bottom: 10px;
+    }
+    
+    .footer .room a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .footer .room a:hover {
+        background-color: #555;
+    }
+    
