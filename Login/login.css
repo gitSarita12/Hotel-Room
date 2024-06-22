@@ -31,7 +31,7 @@ body {
     height: 100px;
 }
 .wrapper {
-    width: 420px;
+    width:38%;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -106,19 +106,17 @@ img{
 .wrapper .btn {
     width: 100%;
     height: 45px;
-    background: #fff;
+    background: #2804f3;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #f8f0f0;
     font-weight: 600;
 }
-.wrapper .btn:hover{
-    background-color: rgb(170, 238, 238);
-}
+
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
@@ -134,3 +132,59 @@ img{
 .register-link p a:hover {
     text-decoration: underline;
 }
+ /* Responsive styles */
+@media (max-width:900px) {
+    .wrapper {
+        width: 45%;
+        padding: 20px;
+    }
+
+    .header h2 {
+        font-size: 32px;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .register-link p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 650px) {
+    .wrapper {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .input-box input {
+        font-size: 12px;
+        padding: 10px 35px 10px 10px;
+    }
+
+    .input-box i {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .register-link p {
+        font-size: 10px;
+    }
+} 
