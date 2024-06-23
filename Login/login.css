@@ -6,15 +6,14 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center; 
     min-height: 100vh;
     background: url("../images/photo-1506059612708-99d6c258160e.avif") no-repeat;
     background-size:cover;
     background-position: center;
 }
-
 .wrapper .header {
     display: flex;
     width: 100%;
@@ -23,7 +22,7 @@ body {
     max-height: 75px;
 }
 
-.header .head {
+.header .head_b{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -32,23 +31,23 @@ body {
 }
 .wrapper {
     width:38%;
-    background: transparent;
+    background:transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
+    margin: 50px auto;
 }
 
 .wrapper h2 {
     font-size: 42px;
     text-align: center;
-}
+} 
 img{ 
     width: 100px;
     height:100px;
-    /* background: #9cc430; */
 }
 .wrapper .input-box {
     position: relative;
@@ -60,7 +59,7 @@ img{
 .input-box input {
     width: 100%;
     height: 100%;
-    background: transparent;
+    background:transparent;
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);

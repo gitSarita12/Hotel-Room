@@ -7,8 +7,8 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    /* tdisplay: flex;
+    jusify-content: center; */
     align-items: center;
     min-height: 100vh;
     background: url("../images/photo-1506059612708-99d6c258160e.avif") no-repeat;
@@ -30,6 +30,7 @@ img {
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
+    margin: auto;
 }
 
 .Reg-form .header {
@@ -39,7 +40,7 @@ img {
     padding: 0;
 }
 
-.Reg-form .header .head {
+.Reg-form .header .head_d {
     padding: 0 5px;
     display: flex;
     justify-content: flex-start;

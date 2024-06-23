@@ -5,20 +5,12 @@
 
 }
 
-/* body {
-    font-family: "poppins", sans-serif;
-
-    min-height: 100vh;
-    background: url(../images/photo-1506059612708-99d6c258160e.avif) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 10vh;
-
-} */
-
 header {
     width: 100vw;
     position: sticky;
+    top: 0;
+    z-index: 999;
+    /* background: #bd1313; */
 }
 .logo{
     display: flex;
@@ -57,7 +49,7 @@ header ul {
     /* background: #dd1414; */
 }
 header ul li a {
-    color: #fff;
+    color: #eaebe7;
     margin: 0px 10px;
     transition: 0.5s;
     padding: 11px 20px;

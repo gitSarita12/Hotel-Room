@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../navbar/nav.css">
+    <link rel="stylesheet" href="../footer//footer.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+    <?php
+    include '../navbar/nav.php';
+    ?>
 <body>
     <div class="wrapper">
         <form action="login.php" method="post">
             <div class="header">
-                <div class="head1">
+                <div class="head_a">
                     <img src="../images/HRRS logo HD.webp" alt="HRRS">
                 </div>
-                <div class="head">
+                <div class="head_b">
                     <h2>Login </h2>
                 </div>
             </div>
@@ -32,6 +37,9 @@
             </div>
         </form>
     </div>
+    <?php 
+    include '../footer/footer.php';
+    ?>
 </body>
 
 </html>

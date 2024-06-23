@@ -4,16 +4,21 @@
 <head>
     <title>Registration Form</title>
     <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="../navbar/nav.css">
+    <link rel="stylesheet" href="../footer//footer.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
+<?php
+    require '../navbar/nav.php';
+    ?>
     <div class="Reg-form">
         <div class="header">
-            <div class="head1">
+            <div class="head_c">
                 <img src="../images/HRRS logo HD.webp" alt="HRRS">
             </div>
-            <div class="head">
+            <div class="head_d">
                 <h1>Registration Form</h1>
             </div>
         </div>
@@ -68,4 +73,8 @@
             </div>
         </form>
     </div>
+    <?php 
+    include '../footer/footer.php';
+    ?>
 </body>
+</html>
