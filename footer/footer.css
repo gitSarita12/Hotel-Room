@@ -4,36 +4,41 @@
     box-sizing: border-box;
 }
 footer{
-    display: flex;
+    display: absolute;
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: rgb(13, 15, 20);
+    bottom: 0;
+    /* background-color:rgb(109, 120, 125); */
+    background-color: rgb(20, 26, 30);
    font-family: sans-serif;
     color: white;
     position: relative;
 }
-.icon a img{
+footer .icon a img{
     width: 40px;
 }
-.icon a {
+footer .icon a {
     padding: 0px 9px;
     margin: 3px;
     text-decoration: none;
 }
-h3{
+footer h3{
   padding: 13px;
+  font-size: smaller;
 }
-.copy{
+footer .copy{
     padding: 12px;
+    font-size: smaller;
 }
 
-.logo1{
+footer .logo1{
 position: absolute;
 left: 76px;
 top: 0;
+/* background-color: rgb(20, 26, 30); */
 }
 
-.logo1 img{
-    width: 134px;
+footer .logo1 img{
+    width: 120px;
 }

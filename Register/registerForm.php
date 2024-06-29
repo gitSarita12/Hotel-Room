@@ -9,10 +9,10 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
 <?php
     require '../navbar/nav.php';
     ?>
+<body>
     <div class="Reg-form">
         <div class="header">
             <div class="head_c">

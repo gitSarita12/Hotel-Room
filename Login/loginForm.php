@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../navbar/nav.css">
     <link rel="stylesheet" href="../footer//footer.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
     <?php
     include '../navbar/nav.php';
@@ -31,7 +32,8 @@
                     class='bx bxs-lock-alt'></i> </div>
             <div class="remember-forgot">
                 <lable> <input type="checkbox">&nbsp;Remember me</lable> <a href="#">Forgot password? </a>
-            </div> <button type="submit" class="btn">Login</button>
+            </div>
+            <button type="submit" class="btn">Login</button>
             <div class="register-link">
                 <p>Don't have an account?<a href="..//Register/registerForm.php">&nbsp;Register</a></p>
             </div>

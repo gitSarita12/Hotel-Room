@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppinns", sans-serif;
+    /* font-family: "poppinns", sans-serif; */
 
 }
 
 body {
-    /* tdisplay: flex;
-    jusify-content: center; */
+
     align-items: center;
     min-height: 100vh;
     background: url("../images/photo-1506059612708-99d6c258160e.avif") no-repeat;
@@ -16,12 +15,12 @@ body {
     background-position: center;
 }
 
-img {
+body .Reg-form .header .head_c img{
     width: 80px;
     height: 80px;
 }
 
-.Reg-form {
+body .Reg-form {
     width: 50%;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -33,14 +32,14 @@ img {
     margin: auto;
 }
 
-.Reg-form .header {
+body .Reg-form .header {
     display: flex;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.Reg-form .header .head_d {
+body .Reg-form .header .head_d {
     padding: 0 5px;
     display: flex;
     justify-content: flex-start;
@@ -48,36 +47,36 @@ img {
     width: 100%;
 }
 
-.Reg-form .name {
+body .Reg-form .name {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.Reg-form .name .first {
+body .Reg-form .name .first {
     padding: 0 5px;
     width: 100%;
 }
 
-.Reg-form h1 {
+body .Reg-form .header .head_d h1 {
     font-size: 36px;
     text-align: center;
 
 }
 
-.Reg-form .input-box {
+body .Reg-form .input-box {
     position: relative;
     width: 100%;
     /* height: 37px; */
     margin: 3px 0px 9px 0px;
 }
 
-.Reg-form p {
+body .Reg-form p {
     font-size: 20px;
     margin: 15px 0;
 }
 
-.Reg-form input {
+body .Reg-form .input-box input {
     font-size: 16px;
     padding: 10px 10px;
     width: 100%;
@@ -86,7 +85,7 @@ img {
     outline: none;
 }
 
-.input-box i {
+body .Reg-form .input-box i {
     color: rgba(0, 0, 0, .5);
     /* background-color: red; */
     position: absolute;
@@ -96,7 +95,7 @@ img {
     font-size: 20px;
 }
 
-.Reg-form button {
+body .Reg-form .btn button {
     font-size: 20px;
     font-weight: bold;
     margin: 20px 0;
@@ -108,28 +107,28 @@ img {
     color: #f0eff8;
 }
 
-.btn {
+body .Reg-form .btn {
     text-align: center;
 }
 
-.Reg-form button:hover {
+body .Reg-form .btn button:hover {
     background-color: rgb(72, 94, 100);
     color: rgb(227, 225, 235);
 }
 
-.login-link {
+body .Reg-form .login-link {
     text-align: center;
     font-weight: 100;
 }
 
-.login-link>p>a {
+body .Reg-form .login-link>p>a {
     color: #f0eff8;
     /* text-decoration: none; */
     font-weight: 600;
 
 }
 
-.login-link>p>a:hover {
+body .Reg-form .login-link>p>a:hover {
     text-decoration: underline;
 }
 /* Media Queries for responsiveness */
